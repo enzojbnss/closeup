@@ -20,10 +20,10 @@
 
 <div class="container" id="tela">
 	<div class="jumbotron">
-	
-         <h2><label>3º Encontro Nacional dos Gestores</label><br>
-         <label> de Treinamento da Indústria Farmacêutica</label></h2>
-	
+		<h2>
+			<label>4º Encontro Nacional dos Gestores</label><br> <label> de
+				Treinamento da Indústria Farmacêutica</label>
+		</h2>
 		<form class="form-group" name="frmPessoa" id="frmPessoa" method="post"
 			action="php/cadPessoa.php">
 			<h3>Dados Pessoais</h3>
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 			<h3>Endereço</h3>
-			<br> <br>
+			<br>
 			<div class="form-group">
 				<div class="col-md-3">
 					<input name="txtCEP" type="text" class="form-control" id="txtCEP"
@@ -93,11 +93,11 @@
 						<option value="TO">Tocantins</option>
 					</select>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-3"><br>
 					<input name="txtNumero" type="text" class="form-control"
 						id="txtNumero" size="5" maxlength="6" placeholder="Número" />
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-4"><br>
 					<input name="txtComplemento" type="text" class="form-control"
 						id="txtComplemento" size="45" maxlength="60"
 						placeholder="Complemento" />
@@ -116,7 +116,7 @@
 			</div>
 			<br> <br>
 			<div class="form-group">
-				<div class="col-md-8">
+				<div class="col-md-8"><br>
 					<input name="txtEmail" type="text" class="form-control"
 						id="txtEmail" size="50" maxlength="60" placeholder="Email" />
 				</div>
@@ -131,12 +131,12 @@
 			<br> <br>
 			<div class="form-group">
 				<div class="col-md-4">
-					<input type="button" name="cmdSalvarPessoa" id="cmdSalvarPessoa"
-						value="Salvar" class="btn btn-info" />
+					<button type="button" name="cmdSalvarPessoa" id="cmdSalvarPessoa">Salvar
+					</button>
 				</div>
 				<div class="col-md-4">
-					<input type="reset" name="cmdLimparPessoa" id="cmdLimparPessoa"
-						value="Limpar" class="btn btn-danger" />
+					<button type="reset" name="cmdLimparPessoa" id="cmdLimparPessoa">Limpar
+					</button>
 				</div>
 			</div>
 		</form>

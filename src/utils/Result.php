@@ -98,5 +98,10 @@ class Result {
 		
 	}
 	
+	public function useJsonSimple($item = 0){
+		header("Content-type:application/json");
+		echo json_encode($this->lista[$item]);
+	}
+	
 	
 }

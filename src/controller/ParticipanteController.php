@@ -19,6 +19,8 @@ class  ParticipanteController {
 	public function  Salvar(){
 		$param=[];
 		$coversor = new Coversor();
+		$uf = $coversor->getObject($this->page->getParamJSon("uf"), "UF", null);
+		$param["uf"] = $uf;
 		$tipoEmail = $coversor->getObject($this->page->getParamJSon("tipoEmail"), "TipoEmail", null);
 		$param["tipoEmail"] = $tipoEmail;
 		$email = $coversor->getObject($this->page->getParamJSon("email"), "Email", $param); 

@@ -13,9 +13,9 @@ class DadosConectaBanco {
 	public function __construct(){
 		$this->tipo = "mysql";
 		$this->host = "localhost";
-		$this->bd = "closeup";
-		$this->user = "app";
-		$this->pass = "Renato1500";
+		$this->bd = "training4farma";
+		$this->user = "training4farma";
+		$this->pass = "R615243";
 	}
 	
 	public function getTipo(){

@@ -10,9 +10,7 @@ class HomeController{
 	}
 
 	public function index() {
-	
 		include $this->page->getRaiz ();
-	
 	}
 	
 	
